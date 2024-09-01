@@ -40,3 +40,8 @@ const user = new User();
 user.hello(bannerPrinter);
 // (hello)
 // *hello*
+
+// 何もimport/exportしないファイルはvscodeからmoduleではなくscriptと認識されてしまい、別ファイルとの名前衝突が発生する
+// これを回避するために空のexportを記述する
+// see: https://github.com/denoland/deno/issues/9593
+export {};
