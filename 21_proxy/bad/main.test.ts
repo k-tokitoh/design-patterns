@@ -1,4 +1,4 @@
-import { expect, test, vi, vitest } from "vitest";
+import { expect, test, vi } from "vitest";
 import { Printer, HeavyTask } from "./main";
 
 test("print", () => {
