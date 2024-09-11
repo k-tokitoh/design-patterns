@@ -6,6 +6,7 @@
     // ex.
     // before: import * as express from 'express';
     // after : import express from 'express';
-    "esModuleInterop": false
+    "esModuleInterop": false,
+    "strict": true
   }
 }
